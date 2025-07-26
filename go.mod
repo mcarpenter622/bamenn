@@ -1,8 +1,11 @@
-module github.com/noppikinatta/bamenn
+module github.com/mcarpenter622/bamenn
 
 go 1.22.3
 
-require github.com/hajimehoshi/ebiten/v2 v2.8.3
+require (
+	github.com/hajimehoshi/ebiten/v2 v2.8.3
+	github.com/noppikinatta/bamenn v0.2.0
+)
 
 require (
 	github.com/ebitengine/gomobile v0.0.0-20240911145611-4856209ac325 // indirect
